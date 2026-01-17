@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <script src="app.js" defer></script>
+    <style>
+        button{
+            background-color: blue;
+            color: #fff;
+            font-weight: 100;
+            font-size: 15px;
+            border-radius: 10px;
+            border-color: blueviolet;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="inp">
+    Email: <br>
+    <input type="text" size="30" onfocus="this.style.backgroundColor='yellow'" 
+    onblur="this.style.backgroundColor='white'">  <br> <br> <hr> <br>
+
+    Number: <br>
+    <input type="text"  onfocus="this.style.backgroundColot='green'"  id="username" size="40">
+    <button onclick="getInputvalue()">Submit</button> <br> <br> <br> <hr> <br>
+
+    Password : <br>
+    <input type="number" size="70" onfocus="this.style.color='green'" id="user">
+    <button onclick="getinputvalue()">Submit</button>
+    </div>
+</body>
+</html>
