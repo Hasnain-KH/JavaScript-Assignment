@@ -47,6 +47,19 @@ document.body.appendChild(div2);
 
 
 
+var box = document.createElement("div");
+var heading = document.createElement("h1");
+var heading2 = document.createElement("h1");
+
+// box.appendChild(heading);
+// box.appendChild(heading2)
+
+box.style.width = "300px";
+box,style.height = "300px";
+box.style.border = "2px solid black";
+
+document.body.append(box);
+
 
 
 
