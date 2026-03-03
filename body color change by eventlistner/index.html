@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    #body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: rgb(186, 179, 169);
+    }
+    #btn {
+      width: 150px;
+      height: 45px;
+      border-radius: 10px;
+      background-color: blue;
+      color: white;
+      font-size: 20px;
+      transition: all ease 2s;
+    }
+    #btn:active {
+      transform: scale(0.2s);
+    }
+    p {
+      font-size: 40px;
+      font-family: "Times New Roman", Times, serif;
+      font-weight: 600;
+    }
+  </style>
+  <body id="body">
+    <p>Lorem ipsum dolor sit amet.</p>
+    <button id="btn">changeMode</button>
+    <script src="app.js"></script>
+  </body>
+</html>
