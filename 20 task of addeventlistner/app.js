@@ -64,59 +64,92 @@
 
 // Task 6
 
-let para6 = document.querySelector("#para6");
-para6.classList.add("para6");
+// let para6 = document.querySelector("#para6");
+// para6.classList.add("para6");
 
-let button1 = document.querySelector("#btn1");
-button1.classList.add("button");
+// let button1 = document.querySelector("#btn1");
+// button1.classList.add("button");
 
-let button2 = document.querySelector("#btn2");
-button2.classList.add("button");
+// let button2 = document.querySelector("#btn2");
+// button2.classList.add("button");
 
-let button3 = document.querySelector("#btn3");
-button3.classList.add("button");
-
-
-button1.addEventListener("click",  function(){
-    para6.style.color = "red";
-    para6.innerHTML = "RedMode"
-
-})
-button2.addEventListener("click", function(){
-    para6.style.color = "black";
-    para6.innerHTML = "BlackMode"
-    para6.style.fontWeight = "900"
-})
+// let button3 = document.querySelector("#btn3");
+// button3.classList.add("button");
 
 
-button3.addEventListener("click", function(){
-    para6.style.visibility = "hidden";
-})
+// button1.addEventListener("click",  function(){
+//     para6.style.color = "red";
+//     para6.innerHTML = "RedMode"
 
-// Task 07
-
-let btn9 = document.querySelector("button");
-let inp = document.querySelector("#inp");
-let inp2 = document.querySelector("#inp2");
-
-btn9.addEventListener("click", function(){
-    localStorage.setItem("name" , inp.value);
-    localStorage.setItem("email" ,  inp2.value)
-})
+// })
+// button2.addEventListener("click", function(){
+//     para6.style.color = "black";
+//     para6.innerHTML = "BlackMode"
+//     para6.style.fontWeight = "900"
+// })
 
 
-let inp4 = document.querySelector("#inp4")
-let inp5 = document.querySelector("#inp5");
-let final = document.querySelector("#final");
+// button3.addEventListener("click", function(){
+//     para6.style.visibility = "hidden";
+// })
 
-final.addEventListener("click" , function(){
-    if(inp.value === inp4.value || inp2.value === inp5.value){
-        alert("Yes Bro!");
-    }else {
-        alert("So sorry!");
-    }
-})
+// // Task 07
+
+// let btn9 = document.querySelector("button");
+// let inp = document.querySelector("#inp");
+// let inp2 = document.querySelector("#inp2");
+
+// btn9.addEventListener("click", function(){
+//     localStorage.setItem("name" , inp.value);
+//     localStorage.setItem("email" ,  inp2.value)
+// })
 
 
+// let inp4 = document.querySelector("#inp4")
+// let inp5 = document.querySelector("#inp5");
+// let final = document.querySelector("#final");
+
+// final.addEventListener("click" , function(){
+//     if(inp.value === inp4.value || inp2.value === inp5.value){
+//         alert("Yes Bro!");
+//     }else {
+//         alert("So sorry!");
+//     }
+// })
 
 
+// Task 8
+
+// let para8 = document.querySelector("#para8");
+// let btn8 = document.querySelector("#btn8");
+
+// btn8.addEventListener("click", function(){
+//     if(para8.style.color === "black"){
+//         para8.style.color = "red"
+//         para8.innerHTML = "RedModeON"
+//     }
+//     else
+//     {
+//         para8.style.color = "black";
+//         para8.innerHTML = "BlackModeON"
+//     }
+// })
+
+
+// Task 9
+
+    // let para9 = document.querySelector("#para9");
+    // let btn9 = document.querySelector("#btn9");
+
+    // btn9.addEventListener("click", function(){
+    //     if(para9.style.color === "black"){
+    //         para9.style.color = "blue";
+    //         btn9.innerHTML = "Turn black";
+    //     }
+    //     else{
+    //         para9.style.color = "black";
+    //         btn9.innerHTML = "Turn Blue";
+    //     }
+    // })
+
+    
