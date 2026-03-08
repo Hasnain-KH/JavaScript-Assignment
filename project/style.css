@@ -9,7 +9,7 @@ body {
   height: 100%;
 }
 body {
-  background-color: grey;
+  background-color: rgb(140, 78, 78);
   display: flex;
   justify-content: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
