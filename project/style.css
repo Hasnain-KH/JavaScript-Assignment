@@ -9,42 +9,66 @@ body {
   height: 100%;
 }
 body {
-  background-color: rgb(140, 78, 78);
+  background-color: rgb(56, 43, 43);
   display: flex;
   justify-content: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  flex-direction: column;
 }
 .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  /* background-color: rgb(144, 165, 165); */
-  width: 400px;
+  margin-left: 33%;
+  margin-bottom: 0px;
+  background-color: rgb(144, 165, 165);
+  width: 440px;
   height: 250px;
-  margin-top: 50px;
+  border: 1px solid #000;
   border-radius: 10px;
 }
 h1 {
-  font-size: 40px;
+  font-size: 46px;
+  color: rgb(163, 83, 238);
+  text-shadow: 1px 1px 1px wheat;
 }
 h2 {
-  font-size: 30px;
-  color: #000;
+  font-size: 70px;
+  color: rgb(193, 168, 168);
 }
 
 button {
-  width: 120px;
-  height: 45px;
+  width: 130px;
+  height: 50px;
   background-color: blueviolet;
   border-radius: 10px;
-  font-size: 17px;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: 800;
   color: rgb(202, 190, 190);
   border: 1px solid #000;
+  box-shadow: -1px 3px 1px 0px white;
   transition: all ease 0.1s;
 }
 button:active {
   background-color: black;
   transform: scale(0.89);
+}
+.h3 {
+  background-color: rgb(249, 249, 248);
+}
+
+.forspan {
+  width: 440px;
+  height: 80px;
+  border-radius: 10px;
+  border: 1px solid #000;
+  background-color: grey;
+  margin-top: 200px;
+  margin-left: 33%;
+  display: none;
+}
+
+span {
+  color: sandybrown;
 }
