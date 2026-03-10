@@ -17,10 +17,9 @@ body {
 input {
   display: none;
 }
-
-.file {
-  width: 130px;
-  height: 45px;
+.btn {
+  width: 160px;
+  height: 50px;
   background-color: blue;
   border-radius: 5px;
   color: white;
