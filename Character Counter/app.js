@@ -1,7 +1,5 @@
-var num = 0;
-function showtext(){
-    var text = document.getElementById("myinput").value;
-    num++;
-    document.getElementById("output").innerText = text;
-    document.getElementById("counter").innerText = counter; 
-}
+let inp = document.querySelector("input");
+inp.addEventListener("input",function(details){
+    console.log(details.value.length)
+    
+})
