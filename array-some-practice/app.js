@@ -1,16 +1,20 @@
-// let inp = document.querySelector("input");
-// let arr = ["ayan", "ali", "sufyan", "hasnian"];
+// The Tasks of some-Array-method:
 
-// inp.addEventListener("keyup", function(){
-//     let val = inp.value.toLocaleLowerCase().trim();
-//     if(arr.some(me => me.toLocaleLowerCase().startsWith(val))){
-//         console.log("yes found");
-//     }
-//     else{
-//         console.log("Not Found");
-//     }   
-//     }
-// )
+// Task 1:
+
+let inp = document.querySelector("input");
+let arr = ["ayan", "ali", "sufyan", "hasnian"];
+
+inp.addEventListener("keyup", function(){
+    let val = inp.value.toLocaleLowerCase().trim();
+    if(arr.some(me => me.toLocaleLowerCase().startsWith(val))){
+        console.log("yes found");
+    }
+    else{
+        console.log("Not Found");
+    }   
+    }
+)
 
 // Task 2:
 
@@ -33,4 +37,39 @@ inp2.addEventListener("keyup",function(){
         console.log("No found");
         
     }
+}) 
+
+// Task 3:
+
+let inp3 = document.querySelector("#inp3");
+let user2 = ["aqib", "saqib", "tahir", "hassan", "hussain"];
+
+inp3.addEventListener("keyup", function(){
+    let value = inp3.value;
+    if(value !== "")
+     if(user2.some(item => item.toLowerCase() === value)){
+        console.log("this name is alredy exist");
+    }    
+    else{
+        console.log("Yes availible");
+    }
 })
+
+// Task 4:
+
+let inp4 = document.querySelector("#inp4");
+let user4 = ["Mild", "Eggs", "Butter", "Bread"];
+
+inp4.addEventListener("keyup", function(){
+    let val4 = inp4.value.toLocaleLowerCase().trim();
+    if(user4.some(items => items.toLowerCase() === val4)){
+        console.log("Item Already Exist in cart");
+    }
+    else {
+        if(val4.length >= 3){
+          user4.push(val4);
+          console.log(user4);   
+        } 
+    }   
+    }
+)
