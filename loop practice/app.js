@@ -36,6 +36,48 @@
 
 // Second way to print odd numbers 1 to 20. 
 
-for(var i = 0; i <= 20; i += 3){
-    console.log(i);
+// for(var i = 0; i <= 20; i += 3){
+//     console.log(i);
+// }
+
+// Task 05:
+
+// var sum = 0;
+// for(var i = 0; i <= 10; i++){
+//     sum += i;
+// }
+// console.log(sum);
+
+// let addval = 0;
+// for(var i = 0; i <= 10; i++){
+//     addval = addval + i;
+// }
+// console.log(addval);
+
+// let val = 0;
+// for(var i = 0; i <= 12; i++){
+//     val = val + i;
+// }
+// console.log(val);
+
+// let val2 = 0;
+// for(var i = 0; i <= 14; i++){
+//     val2 = val2 + i;
+// }
+// console.log(val2);
+
+// Task 06:
+// for(var i = 5; i <= 10; i++){
+//     console.log(`5*${i} = ${5*i}`);  
+// }
+
+// Task 07;
+
+var prices = [1000, 2000, 500, 3000, 700];
+let sumpri = 0;
+
+for(var i = 0; i < prices.length; i++){
+    console.log([i]);
 }
+
+
