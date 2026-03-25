@@ -16,6 +16,21 @@
 //     }
 // )
 
+//This is  not task just my own practice:
+
+let user =  +prompt("Type a Number");
+let num = [1,2,3,4,5,6,7,8,9];
+
+if(user === ""){
+    alert("write something in a prompt.");
+}
+else if(num.some(arr => arr === user)){
+    alert(`Yes ${user} is availible.`);
+}
+else{
+    alert(`The ${user } is not availible here.`);
+}
+
 // Task 2:
 
 // let inp2 = document.querySelector("#inp2");
@@ -76,23 +91,23 @@
 
 // Task 5:
 
-let inp5 = document.querySelector("#inp5");
-let user5 = [
-    {name: "asif", age: 20},
-    {name: "atif", age: 26},
-    {name: "asim", age: 25},
-    {name: "hussain", age: 25},
-    {name: "aslam", age: 26},
-]
-inp5.addEventListener("keyup", function(){
-    let val5 = inp5.value.toLocaleLowerCase().trim();
-if(user5.some(nme => nme.name.toLocaleLowerCase().startsWith(val5))){
-    console.log("yes here"); 
-}
-else{
-    alert("something is wrong")
-}
-})
+// let inp5 = document.querySelector("#inp5");
+// let user5 = [
+//     {name: "asif", age: 20},
+//     {name: "atif", age: 26},
+//     {name: "asim", age: 25},
+//     {name: "hussain", age: 25},
+//     {name: "aslam", age: 26},
+// ]
+// inp5.addEventListener("keyup", function(){
+//     let val5 = inp5.value.toLocaleLowerCase().trim();
+// if(user5.some(nme => nme.name.toLocaleLowerCase().startsWith(val5))){
+//     console.log("yes here"); 
+// }
+// else{
+//     alert("something is wrong")
+// }
+// })
 
 
 
