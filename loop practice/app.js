@@ -73,11 +73,70 @@
 
 // Task 07;
 
-var prices = [1000, 2000, 500, 3000, 700];
-let sumpri = 0;
+// var prices = [100, 200, 50, 10, 7000];
+// let total = 0;
 
-for(var i = 0; i < prices.length; i++){
-    console.log([i]);
+// for(var i = 0; i < prices.length; i++){
+//     total += prices[i];
+// }
+// if(total > 5000){
+//    let discount = total * 10 / 100;
+//    let finalprice = total - discount;
+//    console.log(`It is a initial amount which you had to pay ${total} rupees but listen.`);
+//    console.log(`It's a discount for you ${discount} rupees which is 10%.`);
+//    console.log(`with 10% discount Now you have to pay ${finalprice} rupees amount.`);
+// }
+// else{
+//     console.log(`It is your total amount which you have to pay ${total}`); 
+// }
+
+// Task 08;
+
+// let prices = [200, 400, 20, 220, 600, 700];
+
+// let max = [0];
+
+// for(var i = 0;  i < prices.length; i++){
+//     if(prices[i] > max ){
+//         max = prices[i]
+//     }
+// }
+// console.log(`Highest Price which is ${max}`);
+
+// let arr = [200, 400, 460, 700, 600, 900, 78];
+
+// let maxnum = [0];
+
+// for(var i = 0; i < arr.length; i++){
+//     if(arr[i] > maxnum){
+//         maxnum = arr[i];
+//     }
+// }
+
+// console.log(maxnum);
+
+// let rates = [498, 29, 768, 9850, 467, 983];
+
+// let maxrates = [0];
+
+// for(var i = 0; i < rates.length; i++){
+//     if(rates[i] > maxrates){
+//         maxrates = rates[i];
+//     }
+// }
+// console.log(maxrates);
+
+// Task 09;
+
+let price = [45, 67, 89, 50 ,65];
+
+let min = price[0];
+
+for(var i = 0; i < price.length; i++){
+    if(price[i] < min){
+        min = price[i]
+    }
 }
 
+console.log(min);
 
