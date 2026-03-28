@@ -128,15 +128,40 @@
 
 // Task 09;
 
-let price = [45, 67, 89, 50 ,65];
+// let price = [45, 67, 89, 50 ,65];
 
-let min = price[0];
+// let min = price[0];
 
-for(var i = 0; i < price.length; i++){
-    if(price[i] < min){
-        min = price[i]
+// for(var i = 0; i < price.length; i++){
+//     if(price[i] < min){
+//         min = price[i]
+//     }
+// }
+// console.log(min);
+
+// Task 10;
+
+// let arr2 = [19,3,5,6,87,4];
+
+// let mini = arr2[0]
+
+// for(var i = 1; i < arr2.length; i++){
+//     if(arr2[i] < mini){
+//         mini = arr2[i]
+        
+//     }
+// }
+
+// console.log(mini);
+
+// Task 10;
+let  arr3 = [29, 49, 33, 32, ,48];
+let minimum = arr3[0];
+
+for(var i = 0; i < arr3.length; i++){
+    if(arr3[i] < minimum){
+        minimum = arr3[i]
     }
 }
-
-console.log(min);
+console.log(minimum);
 
