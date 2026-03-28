@@ -101,5 +101,38 @@
 //    console.log(a + b);
 //  }, 0)
 //  console.log("Ayan3");
+
+// document.addEventListener("keyup", function(detail){
+//     if(detail.key !== " "){
+//       console.log(detail.key);
+//     }
+// });
+
+// let inp2 = document.querySelector("#inp2");
+// let arr = ["Apple", "Banana", "Orange","Graps", "Mango"];
+
+// inp2.addEventListener("keyup", function(detail){
+//    let key = detail.key;
+//    if(key == "apple"){
+//       console.log("k"); 
+//    }  else
+//    {
+//       alert("k")
+//    }
+//    } 
+// )
  
    
+
+let inp2 = document.querySelector("#inp2");
+let arr = ["Apple", "Banana", "Orange", "Grapes", "Mango"];
+
+inp2.addEventListener("keyup", function () {
+   let value = inp2.value.toLowerCase().trim();
+
+   if (arr.some(item => item.toLowerCase() === value)) {
+      console.log("k");
+   } else {
+      console.log("not match");
+   }
+});
