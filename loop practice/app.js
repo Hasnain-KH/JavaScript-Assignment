@@ -155,13 +155,51 @@
 // console.log(mini);
 
 // Task 10;
-let  arr3 = [29, 49, 33, 32, ,48];
-let minimum = arr3[0];
+// let  arr3 = [29, 49, 33, 32 ,48];
+// let minimum = arr3[0];
 
-for(var i = 0; i < arr3.length; i++){
-    if(arr3[i] < minimum){
-        minimum = arr3[i]
+// for(var i = 0; i < arr3.length; i++){
+//     if(arr3[i] < minimum){
+//         minimum = arr3[i]
+//     }
+// }
+// console.log(minimum);
+
+// Task 11:
+// let username = [85, 59, 31, 89, 32];
+// let small = username[0];
+
+// for(var i = 0; i < username.length; i++){
+//     if(username[i] < small){
+//         small = username[i]
+//     }  
+// }
+// console.log(small);
+
+// Task 12:
+
+// let userprice = [75,45,56, 98,23,123, 65];
+
+// let tiny = userprice[0];
+
+// for(var i = 0; i < userprice.length; i++){
+//     if(userprice[i] < tiny){
+//         tiny = userprice[i]
+//     }
+// }
+// console.log(tiny);
+
+// Task 13:
+
+let arr13 = [56,87,483,56,54,464,654,];
+
+let tiny1 = arr13[0];
+for(var i = 0; i < arr13.length; i++){
+    if(arr13[i] < tiny1){
+        tiny1 = arr13[i]
     }
 }
-console.log(minimum);
+console.log(tiny1);
+
+
 
