@@ -191,15 +191,38 @@
 
 // Task 13:
 
-let arr13 = [56,87,483,56,54,464,654,];
+// let arr13 = [56,87,483,56,54,464,654,];
 
-let tiny1 = arr13[0];
-for(var i = 0; i < arr13.length; i++){
-    if(arr13[i] < tiny1){
-        tiny1 = arr13[i]
-    }
+// let tiny1 = arr13[0];
+// for(var i = 0; i < arr13.length; i++){
+//     if(arr13[i] < tiny1){
+//         tiny1 = arr13[i]
+//     }
+// }
+// console.log(tiny1);
+
+// Task 14:
+
+// var marks = [80, 70, 60, 90, 85];
+
+// let total = 0;
+
+// for(var i = 0; i < marks.length; i++){
+//     total += marks[i];
+// }
+// console.log(total);
+
+let  marks = [100, 200, 50, 10, 7000];
+
+let totals = 0;
+
+for(var i = 0; i < marks.length; i++){
+    totals += marks[i]
 }
-console.log(tiny1);
+console.log(totals);
+
+
+
 
 
 
