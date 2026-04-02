@@ -1,0 +1,58 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #000;
+}
+
+h1 {
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 20;
+    margin-top: 30px;
+    color: rgb(230, 230, 202);
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    color: azure;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(231, 231, 186);
+    margin: 10px;
+}
+
+.pic {
+    width: 600px;
+    height: 400px;
+    display: flex;
+    justify-content: left;
+    margin-top: 80px;
+}
+
+button{
+    margin-top: 20px;
+    width: 120px;
+    height: 50px;
+    background-color: rgb(128, 41, 7);
+    color: aliceblue;
+    border-radius: 30px;
+    font-weight: bold;
+    border: white solid 2px;
+    display: flex;
+    justify-content: end;
+}
+.dig {
+    width: 50px;
+    height: 50px;
+    /* display: flex;
+    justify-content: right; */
+    color: tan;
+}

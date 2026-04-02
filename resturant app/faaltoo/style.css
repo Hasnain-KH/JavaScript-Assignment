@@ -1,0 +1,52 @@
+* {
+    padding: 0%;
+    margin: 0%
+}
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    background-color: brown;
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-property: all;
+    color: white;
+    margin-bottom: 20px;
+    display: flex;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+div:hover {
+    background-color: aqua;
+}
+
+div:hover {
+    color: blueviolet;
+}
+
+.one {
+    background-color: aqua;
+    color: black;
+    font-size: 2rem;
+    font-weight: 900;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.one:hover {
+    background-color: blueviolet;
+    color: brown;
+    border-radius: 50%
+}

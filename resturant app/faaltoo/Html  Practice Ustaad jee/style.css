@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 70PX;
+    color:rgb(255, 255, );
+    color: rgb(136, 22, 243);
+    
+    transition: 2s;
+    padding-top: 40px;
+}
+h1:hover{
+    color: rgba(181, 11, 158, 0.455);
+    transition: 2s ;
+}
+body{
+    background-color: rgb(174, 153, 196);
+}
+ul{
+    color: rgb(1, 28, 28);
+}
+ol{
+    background-color: rgb(170, 102, 199);
+    color: rgb(3, 5, 1);
+    height: 250px;
+    border-radius: 10px;
+}
+ul{
+    background-color: rgb(151, 71, 186);
+    border-radius: 10px;
+    height: 250;
+    
+} 
+table{
+    background-color: rgb(150, 0, 100);
+}
+
+
+strong :hover{
+    color: rgba(0, 15, 131, 0.229);
+    transition: 1s; 
+}
+.exam{ 
+    padding: 8% 8%;
+    margin-top: 8%;
+    margin-left: 24%;
+    height: 22%;
+    width: 49%;
+    color: rgb(3, 18, 13);
+    font-weight: bold;
+}
+.mno{
+    padding: 10%; 
+    margin-left: 24%;
+    margin-top: 17%;
+    width: 50%;
+    height: 250px;
+    padding-left: 15%;
+    padding-top: 70px;
+    color: rgb(12, 0, 177);
+
+}
+.def{
+    color: rgb(0, 0, 0);
+}
+.has{
+    font-size: 20px;
+    font-weight: 800;
+    padding-bottom: 10px;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.mno ul{
+    color: rgb(3, 18, 13)
+}
+.off{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+
+}
+.heading{
+    font-weight: 700;
+    font-size: 40px;
+    padding-top:70px; 
+}

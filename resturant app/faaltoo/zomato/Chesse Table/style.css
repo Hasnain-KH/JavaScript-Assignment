@@ -1,0 +1,11 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.one {
+    background-repeat: no-repeat;
+    /* width: 58px;
+    height: 60px; */
+    background-size: contain;
+}

@@ -1,0 +1,36 @@
+body{
+    font-family: sans-serif;
+    background-color: black;
+}
+section{
+    height: 10px;
+}
+h1{
+    font-size: 100px;
+    color: #ddd;
+    position: absolute;
+    top: 50px;
+    text-align: center;
+    width: 100%;
+    transform: translateY(-100%);
+    text-transform: capitalize;
+    letter-spacing: 1.5px;
+}
+h1 span{
+    opacity: 0;
+    display: inline-block;
+    animation: amin 1s linear forwards;
+}    
+    @keyframes amin {
+        0%{
+            opacity: 0;
+            transform: rotateY(-90deg);
+            filter: blur(10px);
+        }
+        100%{
+            opacity: 1;
+            transform: rotateY(0deg);
+            filter: blur(0);
+        }
+        
+    }

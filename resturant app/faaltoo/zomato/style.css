@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(212, 186, 186);
+}
+
+.one {
+    background-color: rgb(230, 225, 225);
+    height: 180px;
+    width: 1300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.two {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: rgb(246, 249, 252);
+    display: inline-block;
+    justify-content: center;
+    margin: 40px;
+}
+.three {
+    background-color: rgb(230, 238, 238);
+    height: 180px;
+    width: 1300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.for 
+    {
+    display: inline-block;
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: 40px;
+    
+}
+
+.five {
+    height: 190px;
+    width: 1300px;
+    background-color: rgb(216, 212, 207);
+}
+
+.six {
+    height: 150px;
+    width: 140px;
+    background-color: antiquewhite;
+    display: inline-block;
+    justify-content: space-evenly;
+    margin: 20px;
+}

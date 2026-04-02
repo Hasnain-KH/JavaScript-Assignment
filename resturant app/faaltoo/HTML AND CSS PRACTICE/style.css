@@ -1,0 +1,76 @@
+body{
+    background-color: aqua;
+     transition: 2s;
+}
+h1{
+    color: #8108f2;
+    font-style: italic;
+    font-size: 250%;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-indent: 2px;
+}
+h1{
+    text-shadow: yellow
+    2px 2px ;
+    text-transform: capitalize;
+}
+
+p{
+    text-transform: lowercase;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: brown;
+    font-size: large;
+
+}
+p::first-letter{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 200%;
+    color: blue;
+    text-transform: capitalize;
+    text-shadow: dimgray 2px 2px;
+}
+.one{
+    border-style: solid;
+    border-top-color: blue;
+    border-bottom-color: brown;
+    border-radius: 10%;
+    background-color: blanchedalmond;
+    color: cornflowerblue;
+    text-decoration: overline;
+    text-transform: capitalize;
+}
+.one:hover{
+    color: blueviolet;
+    transition: 2s;
+}
+.one:active{
+    color: blue;
+
+}
+.one:focus{
+    color: rgb(7, 216, 244);
+}
+h1:hover{
+    background-color: rgb(139, 96, 182);
+    color: rgb(176, 59, 59);
+    transition: 2s;
+}
+body:hover{
+    background-color: black;
+    transition: 2s;
+}
+.two{
+    border: 5px solid rgba(18, 9, 153, 0.967)
+}
+.two{
+    background-color: antiquewhite;
+    border-radius: 18px;
+    text-decoration: solid;
+    font-style: oblique;
+    font-size: large;
+    text-align: justify;
+}
+    
