@@ -179,9 +179,7 @@
 // Task 12:
 
 // let userprice = [75,45,56, 98,23,123, 65];
-
 // let tiny = userprice[0];
-
 // for(var i = 0; i < userprice.length; i++){
 //     if(userprice[i] < tiny){
 //         tiny = userprice[i]
@@ -192,7 +190,6 @@
 // Task 13:
 
 // let arr13 = [56,87,483,56,54,464,654,];
-
 // let tiny1 = arr13[0];
 // for(var i = 0; i < arr13.length; i++){
 //     if(arr13[i] < tiny1){
@@ -204,24 +201,34 @@
 // Task 14:
 
 // var marks = [80, 70, 60, 90, 85];
-
 // let total = 0;
-
 // for(var i = 0; i < marks.length; i++){
 //     total += marks[i];
 // }
 // console.log(total);
 
+// Task 15:
+
 let  marks = [100, 200, 50, 10, 7000];
-
-let totals = 0;
-
+let totalss = marks[0];
 for(var i = 0; i < marks.length; i++){
-    totals += marks[i]
+    if(marks[i] < totalss){
+        totalss = marks[i]
+    }
 }
-console.log(totals);
+console.log(totalss);
 
+// Task 16:
 
+let num = [34, 544, 76, 34, 16, 86];
+let numsmall = num[0];
+
+for(var i = 0; i < num.length; i++){
+    if(num[i] < numsmall){
+        numsmall = num[i]
+    }
+}
+alert(numsmall);
 
 
 
